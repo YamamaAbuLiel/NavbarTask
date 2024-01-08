@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Dai+Banna+SIL:wght@300&family=Harmattan&family=Montserrat+Alternates:wght@100;400&family=Noto+Naskh+Arabic&family=Philosopher:wght@400;700&family=Poppins&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    box-shadow: 10px 10px 12px rgb(212, 208, 208);
+}
+
+.logo_container {
+    color: #545BE8;
+    display: flex;
+    align-items: center;
+}
+
+.logo_container img {
+    width: 30px;
+    
+}
+
+.logo_container h4 {
+    margin-left: 10px;
+}
+
+#active
+{
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    padding-top: 15px;
+}
+
+nav ul li {
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.button_group {
+    display: flex;
+    align-items: center;
+}
+
+.button_group button {
+    width: 120px;
+    height: 30px;
+    margin-right: 15px;
+    border-radius: 10px;
+    border-color: #545BE8;
+}
+
+#log_in {
+    background-color: white;
+    color: #545BE8;
+    font-weight: bold;
+}
+
+.sign_up {
+    color: white;
+    background-color: #545BE8;
+    font-weight: bold;
+    width: 120px;
+    height: 30px;
+    margin-right: 15px;
+    border-radius: 10px;
+    border-color: #545BE8;
+}
+
+.clr {
+    clear: both;
+    margin-top: 20px;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.begin {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.begin .text
+{
+    margin-left: -300px;
+}
+
+.begin #lets {
+    color: #545BE8;
+}
+
+#lorem {
+    color: #969696;
+}
+
+.begin div img {
+    width: 300.49px;
+    height: 300px;
+    z-index: 2;
+}
+
+.buttons
+{
+    margin-top: 10px;
+    display: flex;
+}
+
+.circle
+{
+   
+    width: 30px;
+    border-radius: 60%;
+    color: white;  
+    background-color: #F0C932;
+}
+.circle i 
+{
+    margin-left: 10px;
+    margin-top: 6px;
+}
+
+.play
+{
+    display: flex;
+}
+
+.play p{
+    color: black;
+    margin-left: 5px;
+}
+
+
+.sevices
+{
+    margin-top: -100px;
+    background-color: #F5F5F5;
+    z-index: 1;
+    height: 600px;
+}
+
+.what_do_you
+{
+    display: flex;
+    margin-top: 150px;
+    justify-content: space-between;
+}
+
+.qestion
+{
+    display: flex;
+    flex-direction: column;
+    align-content: space-evenly;
+}
+.qestion p
+{
+width: 80%;    
+}
+
+.card
+{
+    margin-left: 20px;
+    width: 400px;
+    height: 250px;
+    background-color: #545BE8;
+    border-radius: 4px;
+    color: white;
+}
+
+.ICON
+{
+    background-color: white;
+    margin-left: 20px;
+    margin-top: 30px;
+    color: #F0C932;
+    width:30px;
+    border-radius: 990%;
+}
+
+.ICON i 
+{
+    margin-left:8px ;
+}
+.card p , .card h3 
+{
+    margin-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer
+{
+background-color: #393E46;
+color: white;
+}
+.footerContetnt
+{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    
+}
+.footerContetnt div 
+{
+padding-top: 12px;
+margin-right: 100px;
+}
+
+.footerContetnt div ul 
+{
+    list-style: none;
+}
+
+
+
+.socialIcons
+{
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+.socialIcons i {
+    width: 30px;
+    height: 30px;
+    border: 1px white solid; /* Border around the icon */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    margin-left: 7px;
+}
+
+
+
+.footText
+{
+   width: 90%;
+}
+
+
